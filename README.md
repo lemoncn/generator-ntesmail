@@ -13,8 +13,7 @@
 
 网易邮箱前端工程目录
 ==================
-猛戳以下地址：
-[https://github.com/cavabiao/generator-ntesmail/tree/master/app/templates]
+猛戳以下地址：https://github.com/cavabiao/generator-ntesmail/tree/master/app/templates
 
 ## License
 
