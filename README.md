@@ -4,4 +4,4 @@ generator-ntesmail
 
 ## License
 
-MIT © Pascal Hartig <phartig@rdrei.net> and other contributors
+MIT © Cavabiao <cavabiao@gmail.com> and other contributors
