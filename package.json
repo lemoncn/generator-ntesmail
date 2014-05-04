@@ -1,0 +1,50 @@
+{
+  "name": "generator-ntesmail",
+  "version": "0.1.0",
+  "description": "Generator for Netease Mail",
+  "keywords": [
+    "yeoman-generator",
+    "generator",
+    "mail"
+  ],
+  "homepage": "https://github.com/cavabiao/generator-ntesmail",
+  "bugs": "https://github.com/cavabiao/generator-ntesmail/issues",
+  "author": {
+    "name": "Cavabiao",
+    "email": "cavabiao@gmail.com",
+    "url": "http://www.cavabiao.com/"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cavabiao/generator-ntesmail.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "github": "~0.1.8",
+    "chalk": "~0.4.0",
+    "npm-name": "~0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "files": [
+    "app",
+    "subgenerator"
+  ]
+}
