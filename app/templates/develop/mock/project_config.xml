@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfigFile>
+  <!-- 工程目录，以下目录都以此为基础目录 -->
+  <ProjectBaseDir>../</ProjectBaseDir>
+  <Entries>
+  	<!-- ftl页面 首页 -->
+    <ConfigEntry>
+      <HttpUrl>http://demo.mail.163.com/</HttpUrl>
+      <OutputFileName>index.html</OutputFileName>
+      <Script>true</Script>
+      <FtlFileName>index.ftl</FtlFileName>
+      <SourceRoot>ftl</SourceRoot>
+      <OutputRoot>mock/output/</OutputRoot>
+      <Data>mock/tdd/global.tdd</Data>
+      <ReplaceExtentions>ftl,html</ReplaceExtentions>
+      <Headers>content-type:text/html</Headers>
+    </ConfigEntry>
+    <ConfigEntry>
+        <HttpUrl>http://demo.mail.163.com/.*\.css</HttpUrl>
+        <HttpUrlRoot>http://demo.mail.163.com/</HttpUrlRoot>
+        <OutputRoot></OutputRoot>
+        <Headers>content-type:text/css</Headers><!-- 返回的response的header设置，以\|作为分隔符，key:value形式 -->
+    </ConfigEntry>
+    <ConfigEntry>
+        <HttpUrl>http://demo.mail.163.com/widget/.*\.*</HttpUrl>
+        <HttpUrlRoot>http://demo.mail.163.com/</HttpUrlRoot>
+        <OutputRoot>../../../</OutputRoot>
+        <Headers>content-type:application/javascript</Headers><!-- 返回的response的header设置，以\|作为分隔符，key:value形式 -->
+    </ConfigEntry>
+    <ConfigEntry>
+        <HttpUrl>http://demo.mail.163.com/.*\.js</HttpUrl>
+        <HttpUrlRoot>http://demo.mail.163.com/</HttpUrlRoot>
+        <OutputRoot></OutputRoot>
+        <Headers>content-type:application/javascript</Headers><!-- 返回的response的header设置，以\|作为分隔符，key:value形式 -->
+    </ConfigEntry>
+    <ConfigEntry>
+        <HttpUrl>http://demo.mail.163.com/.*\.png</HttpUrl>
+        <HttpUrlRoot>http://demo.mail.163.com/</HttpUrlRoot>
+        <OutputRoot></OutputRoot>
+        <Headers>content-type:image/png</Headers><!-- 返回的response的header设置，以\|作为分隔符，key:value形式 -->
+    </ConfigEntry>
+    <ConfigEntry>
+        <HttpUrl>http://demo.mail.163.com/.*\.jpg</HttpUrl>
+        <HttpUrlRoot>http://demo.mail.163.com/</HttpUrlRoot>
+        <OutputRoot></OutputRoot>
+        <Headers>content-type:image/jpg|image/jpeg</Headers><!-- 返回的response的header设置，以\|作为分隔符，key:value形式 -->
+    </ConfigEntry>
+    <ConfigEntry>
+        <HttpUrl>http://demo.mail.163.com/.*\.gif</HttpUrl>
+        <HttpUrlRoot>http://demo.mail.163.com/</HttpUrlRoot>
+        <OutputRoot></OutputRoot>
+        <Headers>content-type:image/gif</Headers><!-- 返回的response的header设置，以\|作为分隔符，key:value形式 -->
+    </ConfigEntry>
+  </Entries>
+</ConfigFile>

@@ -1,0 +1,21 @@
+/* CSS Reset v2.2 beta
+=========================================================== */
+html{-overflow-y:scroll}
+body{color:#808080;background:#fff;font-size:12px;line-height:1.666}
+body,input,textarea{font-family:verdana}
+header,footer,section,aside,article,nav,hgroup,figure,figcaption,
+body,h1,h2,h3,h4,h5,h6,ul,ol,li,form,p,dl,dt,dd,blockquote,legend,table,th,td,fieldset,menu,pre{margin:0;padding:0}
+table,th,td,img,fieldset{border:0}
+time,mark,output,meter,
+address,cite,em,code,var,dfn,ins,i,th,caption{font-style:normal;text-decoration:none}
+h1,h2,h3,h4,h5,h6,th{font-size:100%;font-weight:normal}
+input,select,button,textarea,table{margin:0;font-family:inherit;font-size:100%}
+abbr,acronym{border:0;font-variant:normal}
+q:before,q:after{content:""}
+ul,ol{list-style:none}
+table{border-collapse:collapse;border-spacing:0}
+th,caption{text-align:left}
+header,footer,section,aside,article,nav,hgroup,figure,figcaption{display:block}
+a{color:#3399ff; text-decoration: none; outline: none;}
+a:hover{text-decoration: underline;}
+img{display: block;}

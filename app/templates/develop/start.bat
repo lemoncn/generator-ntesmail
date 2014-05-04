@@ -1,0 +1,1 @@
+java -jar ../server/local.jar "../develop/mock/project_config.xml" 8081
