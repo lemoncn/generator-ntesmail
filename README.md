@@ -10,6 +10,9 @@
 5. 在工作目录下执行yo ntesmail
 6. 根据提示输入目录名即可生成工程目录
 
+## 关于网易邮箱前端工程目录结构的说，请看
+[https://github.com/cavabiao/generator-ntesmail/tree/master/app/templates]
+
 ## License
 
 MIT © Cavabiao <cavabiao@gmail.com> and other contributors
